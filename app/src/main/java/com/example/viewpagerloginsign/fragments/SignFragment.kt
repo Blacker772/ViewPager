@@ -11,7 +11,6 @@ import com.example.viewpagerloginsign.databinding.FragmentSingBinding
 class SignFragment : Fragment() {
 
     private var binding: FragmentSingBinding? = null
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

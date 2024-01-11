@@ -10,14 +10,6 @@ import com.example.viewpagerloginsign.databinding.FragmentAuthBinding
 class AuthFragment : Fragment() {
 
     private var binding: FragmentAuthBinding? = null
-    private var login: String? = null
-    private var password: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        login = arguments?.getString("login")
-        password = arguments?.getString("password")
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
